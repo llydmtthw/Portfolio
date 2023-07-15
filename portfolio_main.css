@@ -1,0 +1,31 @@
+.submain{
+    display: flex;
+    padding: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 35px;
+    font-family: sans-serif;
+    border: solid rgba(0, 112, 139, 0.664) 2px;
+}
+
+.profile_pic{
+    width: 250px;
+    border-radius: 150%;
+    margin-left: 50%;
+}
+
+.name{
+    color: rgb(255, 255, 255);
+    text-align: right;  
+    margin-right: 20px;
+}
+
+p{
+    margin-top: 0%;
+}
+
+.quotes{
+    margin-top: 50%;
+    font-size: 25px;
+    font-style: italic;
+}

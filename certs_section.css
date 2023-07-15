@@ -1,0 +1,12 @@
+.certificates_section{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 30px;
+}
+
+.cert1,
+.cert2{
+    width: 700px;
+    height: 500px;
+}

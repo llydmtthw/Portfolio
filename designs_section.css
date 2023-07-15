@@ -1,0 +1,45 @@
+.designs_section{
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    border: solid 2px rgb(0, 143, 187);
+}
+
+  .previewIcon_container {
+    display: flex;
+    gap: 50px;
+    position: relative;
+  
+  }
+  
+  .designPic1,
+  .designPic2,
+  .designPic3 {
+    margin-left: 200%;
+    height: 400px;
+    opacity: 0.5;
+    filter: blur(2px);
+  }
+  
+  .previewBtn {
+    position: absolute;
+    background-image: url('preview.png');
+    top: 50%;
+    left: 50%;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #868686;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .previewBtn:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+  
+  

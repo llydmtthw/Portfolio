@@ -1,0 +1,13 @@
+
+.skills_section{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border: solid rgb(255, 255, 255) 2px;
+}
+
+.skills_section p{
+    color: aliceblue;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
