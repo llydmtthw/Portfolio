@@ -1,0 +1,8 @@
+.btn{
+    background-color: rgb(0, 0, 0);
+    background-image: url('down-arrow.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-style: none;
+}

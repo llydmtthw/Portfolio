@@ -1,31 +1,94 @@
 .submain{
-    display: flex;
-    padding: 200px;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
     font-family: sans-serif;
-    border: solid rgba(0, 112, 139, 0.664) 2px;
+    background-color: #F2F2F2;
 }
 
 .profile_pic{
     width: 250px;
-    border-radius: 150%;
-    margin-left: 50%;
+    margin-top: 70px;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 70px;
+    border-radius: 250px 250px 2px 2px;
 }
 
-.name{
-    color: rgb(255, 255, 255);
+.helloTxt{
+    display: grid;
+    text-align: right;
+    margin-right: 200px;
+}
+
+.nameContainer{
+    color: rgb(0, 0, 0);
     text-align: right;  
     margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p{
+    margin: bottom 0;
+    font-size: 5vw ;
     margin-top: 0%;
 }
 
 .quotes{
-    margin-top: 50%;
-    font-size: 25px;
+    font-size: 2vw ;
+    margin-top: 20px;
     font-style: italic;
+}
+
+
+
+@media (max-width: 700px){
+    .submain{
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .quotes{
+        margin: 50px;
+    }
+
+    .profile_pic{
+        margin-left: 0%;
+        margin-top: 70%;
+        width: 100px;
+    }
+
+    .nameContainer{
+        margin: 0%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 999px){
+    .submain{
+        grid-template-columns: 1fr ;
+        margin: 2px;
+    }
+    .profile_pic{
+        width: 200px;
+        margin-top: 70px;
+        border-radius: 150px 150px 2px 2px;
+    }
+}
+
+@media (min-width: 1000px){
+    .submain{
+        grid-template-columns: 1fr;
+    }
+
+    .profile_pic{
+        width: 200px;
+        margin: 30px;
+        margin-left: 0%;
+        border-radius: 150px 150px 2px 2px;
+    }
 }

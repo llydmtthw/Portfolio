@@ -1,13 +1,113 @@
 
 .skills_section{
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-    border: solid rgb(255, 255, 255) 2px;
+    background-color: #8758FF;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
 }
 
-.skills_section p{
-    color: aliceblue;
-    font-family: roboto, Arial, Helvetica, sans-serif;
-    font-size: 25px;
+.photoshopBtn{
+    background-image: url('adobe-photoshop.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.canvaBtn{
+    background-image: url('canva.png');
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+    
+.hashtagBtn{
+    background-image: url('hashtag.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.filesBtn{
+    background-image: url('files.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.filesBtn2{
+    background-image: url('files\ \(1\).png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.javaBtn{
+    background-image: url('java.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.vbfileBtn{
+    background-image: url('vb-file\ \(1\).png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.mysqlBtn{
+    background-image: url('mysql.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.troubleBtn{
+    background-image: url('troubleshooting.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.skills_section img{
+    width: 60px;
+}
+
+p{
+    font-size: 2vw;
+}
+
+@media (max-width: 700px){
+    .skills_section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .skills_section button{
+        width: 25px;
+        height: 25px;
+        border-radius: 2px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 999px){
+    .skills_section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    .skills_section{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
