@@ -12,9 +12,14 @@
     <link rel="stylesheet" href="designs_section.css">
     <link rel="stylesheet" href="certs_section.css">
     <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="transitions.css">
+    <script src="portfolio.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="custom.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
    
     <title>Portfolio</title>
@@ -40,22 +45,22 @@
                 <div class="wave"></div>
                 <div class="wave"></div>  
             </div> -->
-          
+            <section data-aos="fade-up">
                 <div class="submain"> 
-                        <div class="profileContainer">
+                        <div data-aos="zoom-in-right" class="profileContainer">
                             <img class="profile_pic" src="profile_pic.JPG">
                         </div>
                         <div class="helloTxt">
-                            <h1>Hello</h1>
+                            <h1 ddata-aos="zoom-in">Hello I'm</h1>
                         </div>
                         <div class="nameContainer">
-                            <div>
+                            <div data-aos="fade-up-left">
                                 <p>Lloyd Matthew M. Delos Angeles</p>
                             </div>
-                            <div>
+                            <div data-aos="fade-up-left">
                                 <p>UI/UX Designer | Programmer | Graphic Designer</p>
                             </div>
-                            <div>
+                            <div data-aos="fade-up-left"> 
                                 <p class="quotes">“Energetic, passionate, and confident individual seeking
                                     for a job in a supportive and progressive organization or
                                     company with a wide range of opportunity to effectively
@@ -64,7 +69,9 @@
                             </div>
                     </div>
             </div>
-
+            </section>
+            <section data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
                 <div id="skills" class="skills_section">
                     <div>
                         <button class="photoshopBtn"></button>
@@ -98,7 +105,9 @@
                         <button class="troubleBtn"></button>
                     </div>       
                 </div>
-
+            </section>
+            <section data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
                 <div id="designs" class="designs_section">
                         <div >
                            <a href="https://drive.google.com/file/d/1QVrstMftxRq4ew1DxTgDqHOh1knyuJMc/view?usp=sharing"><img class="design1" src="1.png"></a> 
@@ -119,7 +128,9 @@
                          <button class = "previewBtn" onclick="window.location.href='https://drive.google.com/drive/folders/176vX92k_jYvFbXOmgbRSSVHSzoFihi9O?usp=sharing'"></button>
                        </div>-->        
                 </div>
-
+            </section>
+            <section data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
                 <div id="certs_nav" class="certificates_section">
                     <div>
                         <img class="cert1" src="LLOYD MATTHEW M. DELOS ANGELES.png">
@@ -127,9 +138,10 @@
                     <div>
                         <img class="cert2" src="LLOYD MATTHEW M. DELOS ANGELESCert-of-Participation-Intro-to-Game-Dev-1.png">
                     </div>
-                   
                 </div>
-
+            </section>
+            <section data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" >
                 <div id = "contacts" class="footer"> 
                     <div class="mygmail">
                         <img class ="gmail" src="new.png" >
@@ -144,6 +156,11 @@
                         <p style="padding-top: 15px;">Morong Rizal</p> 
                         </div>                   
                 </div>
+            </section>
         </body>
+
+        <script>
+            AOS.init();
+          </script>
    
 </html>

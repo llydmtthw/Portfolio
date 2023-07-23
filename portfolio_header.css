@@ -1,10 +1,7 @@
-
-
 .header{
     display: flex;  
     flex-direction: row;
     justify-content: right;
-    padding: 6px;
     background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;

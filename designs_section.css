@@ -3,6 +3,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     background-color: #F2F2F2;
+    padding-top:50px;
+    padding-bottom: 50px;
 }
 
 /*
